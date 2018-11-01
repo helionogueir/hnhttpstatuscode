@@ -1,7 +1,7 @@
 {
   "name": "hnhttpstatuscode",
   "version": "0.0.1",
-  "description": "HTTP status codes",
+  "description": "HTTP status codes messages",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test --recursive"
