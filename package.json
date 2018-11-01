@@ -1,5 +1,5 @@
 {
-  "name": "hhttpstatuscode",
+  "name": "hnhttpstatuscode",
   "version": "0.0.1",
   "description": "HTTP status codes",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helionogueir/hhttpstatuscode.git"
+    "url": "git+https://github.com/helionogueir/hnhttpstatuscode.git"
   },
   "keywords": [
     "http",
@@ -18,9 +18,9 @@
   "author": "Helio Nogueira <helio.nogueir@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/helionogueir/hhttpstatuscode/issues"
+    "url": "https://github.com/helionogueir/hnhttpstatuscode/issues"
   },
-  "homepage": "https://github.com/helionogueir/hhttpstatuscode#readme",
+  "homepage": "https://github.com/helionogueir/hnhttpstatuscode#readme",
   "devDependencies": {
     "mocha": "*",
     "supertest": "*"

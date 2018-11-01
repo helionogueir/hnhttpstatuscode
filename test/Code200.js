@@ -7,8 +7,8 @@ describe("Code 200", function () {
 
     it("Test Success", function () {
         let assert = require('assert');
-        let hhttpstatuscode = require(require('path').resolve("./index.js"));
-        let result = hhttpstatuscode.get(code);
+        let hnhttpstatuscode = require(require('path').resolve("./index.js"));
+        let result = hnhttpstatuscode.get(code);
         assert.ok(typeof result.code === 'number');
         assert.ok(typeof result.message === 'string');
         assert.equal(result.code, code);
@@ -17,9 +17,9 @@ describe("Code 200", function () {
 
     it("Test Error", function () {
         let assert = require('assert');
-        let hhttpstatuscode = require(require('path').resolve("./index.js"));
-        let success = hhttpstatuscode.get(code);
-        let fail = hhttpstatuscode.get(0);
+        let hnhttpstatuscode = require(require('path').resolve("./index.js"));
+        let success = hnhttpstatuscode.get(code);
+        let fail = hnhttpstatuscode.get(0);
         assert.ok(success.code !== fail.code);
         assert.ok(success.message !== fail.message);
     });

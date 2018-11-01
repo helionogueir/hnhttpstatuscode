@@ -2,8 +2,8 @@
 
 ## How to use?
 ```js
-    let hhttpstatuscode = require("hhttpstatuscode");
-    let statusCode = hhttpstatuscode.get(200);
+    let hnhttpstatuscode = require("hnhttpstatuscode");
+    let statusCode = hnhttpstatuscode.get(200);
     console.info(statusCode);
     /*
         statusCode = {
