@@ -27,7 +27,7 @@ module.exports = class HttpStatusCode {
             message: 'Undefined'
         });
         try {
-            let statusCode = require(require('path').resolve(`./src/entity/Code${code}.json`));
+            let statusCode = require(`../entity/Code${code}.json`);
             if (statusCode instanceof Object) {
                 if ((undefined !== statusCode.code) && undefined !== statusCode.message) {
                     if (('' !== statusCode.code) && '' !== statusCode.message) {
