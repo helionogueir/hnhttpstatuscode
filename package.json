@@ -1,0 +1,28 @@
+{
+  "name": "hhttpstatuscode",
+  "version": "0.0.1",
+  "description": "HTTP status codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helionogueir/hhttpstatuscode.git"
+  },
+  "keywords": [
+    "http",
+    "code",
+    "status"
+  ],
+  "author": "Helio Nogueira <helio.nogueir@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helionogueir/hhttpstatuscode/issues"
+  },
+  "homepage": "https://github.com/helionogueir/hhttpstatuscode#readme",
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*"
+  }
+}

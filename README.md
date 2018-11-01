@@ -1,2 +1,2 @@
 # hhttpstatuscode
-HTTP status codes
+HTTP Status Codes
