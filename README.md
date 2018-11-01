@@ -3,7 +3,7 @@
 ## How to use?
 ```js
     let hhttpstatuscode = require("hhttpstatuscode");
-    let statusCode = hhttpstatuscode.get(code);
+    let statusCode = hhttpstatuscode.get(200);
     console.info(statusCode);
     /*
         statusCode = {
