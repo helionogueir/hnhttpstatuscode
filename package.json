@@ -1,6 +1,6 @@
 {
   "name": "hhttpstatuscode",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "HTTP status codes",
   "main": "index.js",
   "scripts": {
