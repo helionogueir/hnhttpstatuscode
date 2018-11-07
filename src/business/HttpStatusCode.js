@@ -31,7 +31,7 @@ module.exports = class HttpStatusCode {
             if (statusCode instanceof Object) {
                 if ((undefined !== statusCode.code) && undefined !== statusCode.message) {
                     if (('' !== statusCode.code) && '' !== statusCode.message) {
-                        result = statusCode;
+                        result = Object.assign({}, statusCode);
                     }
                 }
             }
